@@ -1,68 +1,71 @@
 * {
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
+
 /* To display 1st image with top part*/
 .container-1 {
-    width: 60%;
-    border: 1px solid #000000;
-    height: 170px;
-    margin-top: 1%;
+  width: 60%;
+  border: 1px solid black;
+  height: 170px;
+  margin-top: 1%;
 }
 
 #text-content-1 {
-    width: 100%;
-    height: 20px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 1%;
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 1%;
 }
 
-.top-part-image{
-    width: 100%;
-    height: 142px;
-    object-fit: cover;
-    object-position: 0% 6%;
+.top-part-image {
+  width: 100%;
+  height: 142px;
+  object-fit: cover;
+  object-position: 0% 6%;
 }
 
 /* To display 2nd image with bottom part*/
 .container-2 {
-    width: 60%;
-    border: 2px solid #000000;
-    height: 220px;
-    margin-top: 1%;
+  width: 60%;
+  border: 2px solid black;
+  height: 220px;
+  margin-top: 1%;
 }
 
 #text-content-2 {
-    width: 100%;
-    height: 30px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 1%;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 1%;
 }
 
-.bottom-half-image{
-    width: 100%;
-    height: 182px;
-    object-fit: cover;
-    object-position: 50% 100%;
+.bottom-half-image {
+  width: 100%;
+  height: 182px;
+  object-fit: cover;
+  object-position: 50% 100%;
 }
 
 /* To display 3rd full image with 500x300 dimensions*/
 .container-3 {
-    width: 60%;
-    height: 340px;
-    margin-top: 1%;
+  width: 60%;
+  height: 340px;
+  margin-top: 1%;
 }
 
 #text-content-3 {
-    width: 100%;
-    height: 30px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 1%;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 1%;
 }
 
-.full-image{
-    width: 500px;
-    height: 300px;
+.full-image {
+  width: 500px;
+  height: 300px;
 }
+
+/*# sourceMappingURL=assignment_3.css.map */

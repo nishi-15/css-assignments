@@ -1,71 +1,64 @@
+/* declare variables for different colors */
 * {
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
 
 #container {
-    width: 55%;
-    border: 1px solid #000000;
-    height: 500px;
-    margin-top: 1%;
+  width: 55%;
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 1%;
+}
+#container #content-box {
+  width: 96%;
+  border: 1px solid black;
+  height: 475px;
+  margin: 1.5%;
+}
+#container #content-box .text-content {
+  width: 100%;
+  height: 189px;
+  background-color: #FF9999;
+  border-bottom: 2px solid black;
+}
+#container #content-box .text-content .p-txt-block-large {
+  margin: 0%;
+  padding: 2% 3% 1% 10%;
+  font-size: 2em;
+  text-align: initial;
+}
+#container #content-box .text-content .p-txt-block-small {
+  font-size: 1.3em;
+}
+#container #content-box .image-content {
+  width: 74%;
+  float: left;
+  height: 284px;
+  background-color: #ffff73;
+  border-right: 1px solid black;
+}
+#container #content-box .image-content #assignment-2-1 {
+  width: 97%;
+  height: 275px;
+  margin-top: 0.8%;
+}
+#container #content-box .txt-img-content {
+  width: 25.8%;
+  float: right;
+  height: 284px;
+  background-color: #ECECFB;
+}
+#container #content-box .txt-img-content #assignment-2-2 {
+  width: 60%;
+  height: 120px;
+  margin-top: 10%;
+}
+#container #content-box .txt-img-content h2 {
+  margin: 0;
+  font-weight: bold;
+}
+#container #content-box .txt-img-content .p-txt-img-block {
+  margin: 5%;
 }
 
-#content-box {
-    width: 96%;
-    border: 1px solid #000000;
-    height: 475px;
-    margin: 1.5%;
-}
-
-.text-content {
-    width: 100%;
-    height: 189px;
-    background-color: #FF9999;
-    border-bottom: 2px solid #000000;
-}
-
-.image-content {
-    width: 74%;
-    float: left;
-    height: 284px;
-    background-color: #ffff73;
-    border-right: 1px solid #000000;
-}
-
-.txt-img-content {
-    width: 25.8%;
-    float: right;
-    height: 284px;
-    background-color: #ECECFB;
-}
-
-#assignment-2-1 {
-    width: 97%;
-    height: 275px;
-    margin-top: 0.8%;
-}
-
-#assignment-2-2 {
-    width: 60%;
-    height: 120px;
-    margin-top: 10%;
-}
-
-h2 {
-    margin: 0;
-    font-weight: bold;
-}
-
-.p-txt-img-block {
-    margin: 5%;
-}
-
-.p-txt-block-large {
-    margin: 0%;
-    padding: 2% 3% 1% 10%;
-    font-size: 2em;
-    text-align: initial;
-}
-
-.p-txt-block-small {
-    font-size: 1.3em;
-}
+/*# sourceMappingURL=assignment_2.css.map */

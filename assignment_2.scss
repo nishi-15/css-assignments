@@ -1,0 +1,78 @@
+/* declare variables for different colors */
+$black-color: black;
+$light-gray-color: #ECECFB;
+$light-yellow-color: #ffff73;
+$light-red-color: #FF9999;
+
+* {
+    text-align: -webkit-center;
+}
+
+#container {
+    width: 55%;
+    border: 1px solid $black-color;
+    height: 500px;
+    margin-top: 1%;
+    #content-box {
+        width: 96%;
+        border: 1px solid $black-color;
+        height: 475px;
+        margin: 1.5%;
+        .text-content {
+            width: 100%;
+            height: 189px;
+            background-color: $light-red-color;
+            border-bottom: 2px solid $black-color;
+            .p-txt-block-large {
+                margin: 0%;
+                padding: 2% 3% 1% 10%;
+                font-size: 2em;
+                text-align: initial;
+            }
+            .p-txt-block-small {
+                font-size: 1.3em;
+            }
+        }
+        .image-content {
+            width: 74%;
+            float: left;
+            height: 284px;
+            background-color: $light-yellow-color;
+            border-right: 1px solid $black-color;
+            #assignment-2-1 {
+                width: 97%;
+                height: 275px;
+                margin-top: 0.8%;
+            }
+        }
+        .txt-img-content {
+            width: 25.8%;
+            float: right;
+            height: 284px;
+            background-color: $light-gray-color;
+            #assignment-2-2 {
+                width: 60%;
+                height: 120px;
+                margin-top: 10%;
+            }
+            h2 {
+                margin: 0;
+                font-weight: bold;
+            }
+            .p-txt-img-block {
+                margin: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

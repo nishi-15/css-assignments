@@ -1,0 +1,85 @@
+/* declare variables for different colors and background-colors */
+$body-background-color : #D8DA3D;
+$primary-color : #80007E;
+$white-color: white;
+$black-color: black;
+$light-orange-color: #FF7F00;
+$blue-color: blue;
+
+/* declare variables for font attributes*/
+$primary-font-size: 1.1em;
+$secondary-font-size: 1.2em;
+$font-weight: 500;
+$primary-font-family: Arial, Helvetica, sans-serif;
+$secondary-font-family: Georgia, 'Times New Roman', Times, serif;
+$align-left: left;
+$align-right: right;
+$align-center: center;
+
+body {
+    background-color: $body-background-color;
+    color: $primary-color;
+}
+
+#list-elements {
+    float: left;
+    width: 17%;
+    ul{
+        list-style: none;
+        padding: 15px 0 0 5px;
+        li {
+            background-color: $white-color;
+            width: 150px;
+            margin: 10px 0 0 0;
+            padding: 5px;    
+            font-weight: $font-weight;
+            font-size: $primary-font-size;            
+        }
+        li:nth-child(odd) {
+            border-right: 15px solid $light-orange-color;
+        }
+        li:nth-child(even) {
+            border-right: 15px solid $blue-color;
+        }
+    }
+}
+
+#content {
+    float: right;
+    width: 83%;
+    h1 {
+        font-family: $primary-font-family;
+    }
+    hr {
+        border: none;
+        border-top: 1px dotted $primary-color;
+    }
+    p {
+        font-size: $primary-font-size;
+        font-weight: $font-weight;
+    }
+    pre {
+        font-family: $secondary-font-family;
+        white-space: pre-line;
+        font-style: italic;
+    }
+    .text-left {
+        text-align: $align-left;
+        border: 2px dashed $black-color;
+    }    
+    .text-right {
+        text-align: $align-right;
+        border: 2px dashed $light-orange-color;
+    }    
+    .text-center {
+        text-align: $align-center;
+        border: 1px dashed $blue-color;
+        font-weight: bold;
+    }
+    .content-box {
+        width: 80%;
+        padding: 10px;
+        color: $black-color;
+        font-size: $secondary-font-size;
+    }
+}

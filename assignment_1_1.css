@@ -1,49 +1,47 @@
+/* declare variables for different colors and background-colors */
+/* declare variables for font attributes*/
 body {
-    background-color: #D8DA3D;
-    color: #80007E;
+  background-color: #D8DA3D;
+  color: #80007E;
 }
 
 #list-elements {
-    float: left;
-    width: 17%;
+  float: left;
+  width: 17%;
+}
+#list-elements ul {
+  list-style: none;
+  padding: 15px 0 0 5px;
+}
+#list-elements ul li {
+  background-color: white;
+  width: 150px;
+  margin: 10px 0 0 0;
+  padding: 5px;
+  border-right: 15px solid black;
+  font-weight: 500;
+  font-size: 1.1em;
 }
 
 #content {
-    float: right;
-    width: 83%;
+  float: right;
+  width: 83%;
+}
+#content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content hr {
+  border: none;
+  border-top: 1px dotted #80007E;
+}
+#content p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+#content pre {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  white-space: pre-line;
+  font-style: italic;
 }
 
-ul{
-    list-style: none;
-    padding: 15px 0 0 5px;
-}
-
-ul li {
-    background-color: white;
-    width: 150px;
-    margin: 10px 0 0 0;
-    padding: 5px;
-    border-right: 15px solid #000000;
-    font-weight: 500;
-    font-size: 1.1em;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-hr {
-    border: none;
-    border-top: 1px dotted #80007E;
-}
-
-p{
-    font-size: 1.1em;
-    font-weight: 500;
-}
-
-div pre {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    white-space: pre-line;
-    font-style: italic;
-}
+/*# sourceMappingURL=assignment_1_1.css.map */
